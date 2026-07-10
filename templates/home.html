@@ -1,0 +1,124 @@
+{% load static %}
+<!DECOTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Student Attendance system</title>
+<style>
+	body {
+		font-family: Arial,sans-serif;
+		background: linear-gradient(rgba(37, 99, 235, 0.8), rgba(37, 99, 235, 0.8));
+	    margin: 0;
+		padding: 0;
+		color: white;
+	}
+
+	/* HEADER */
+	.header {
+		color: black;
+		text-align: left;
+		padding: 20px;
+	}
+
+	/*WELCOME BOX*/
+	.welcome-box {
+		background-color: white;
+		text-align: center;
+		padding: 40px;
+		margin: 20px;
+		border-radius: 10px;
+	}
+
+	.welcome-box h2{
+		color: #2563eb;
+	}
+
+	/*BUTTONS*/
+
+	.btn {
+		padding: 12px 25px;
+		text-decoration: none;
+		color: white;
+		border-radius: 5px;
+		margin: 10px;
+		display: inline-block;
+	}
+
+	.btn-blue { background-color: #2563eb; }
+	.btn-green {background-color: #16a34a; }
+
+	.btn:hover {
+		opacity: 0.8;
+	}
+
+	/* FEATURES SECTION*/
+
+	.features {
+		padding: 20px;
+		text-align: center;
+	}
+
+	.feature-item {
+		background-color: white;
+		margin: 15px;
+		color: black;
+		padding: 20px;
+		border-radius: 10px;
+		border-left: 5px solid #2563eb;
+	}
+
+	/*FOOTER*/
+	.footer {
+		background-color: #333;
+		color: white;
+		text-align: center;
+		padding: 15px;
+		margin-top: 20px;
+	}
+</style>
+</head>
+<body>
+
+	<!--HEADER PART-->
+	<div class ="header"
+		<h1>👨‍🎓 Student Attendance System 👩‍🎓</h1>
+		</div>
+
+		<!--WELCOME PART-->
+		<div class="welcome-box">
+			<h2>Welcome to Student Attendance System</h2>
+			<p>This system helps teachers record attendance quickly and get reports easily.</p>
+		
+			<!--ACTION BUTTONS-->
+			<a href ="/login/" class="btn btn-blue">Login as Teacher</a>
+			<a href ="/mark/" class="btn btn-green">Mark Attendance</a>
+		</div>
+
+		<!--SYSTEM BENEFICTS-->
+		<div class="features">
+			<h2>Why Use Our System?</h2>
+
+			<div class="feature-item">
+				<h3>1. Fast</h3>
+				<p>You can finish marking attendance for a whole class in just very few minute.</p>
+			</div>
+
+				<div class="feature-item">
+					<h3>2. Easy Reports</h3>
+					<p>Get reports of present and absent students with just one click.</p>
+				</div>
+
+				<div class="feature-item">
+					<h3>3. Secure</h3>
+					<p>Each teacher has their own account. No one can change another teacher's data.</p>
+				</div>
+			</div>
+		
+	<!--FOOTER-->
+<div class="footer">
+<p> © 2026 Student Attendance Tracking System</p>
+</div>
+
+</body>
+</html>
